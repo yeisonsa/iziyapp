@@ -52,8 +52,8 @@ ul li{
 
 /*PORTADA PRINCIPAL*/
 .portada{
-	background-image: url("http://imagenpng.com/wp-content/uploads/2015/03/Portadas-para-youtube-2048x1152-0.jpg");
-	background-size: cover;
+	background-image: url("../Img/15146724_10154761299711118_1711375617_o.png");
+/*	background-size: cover;*/
 	height: 600px;
 }
 .contenedor{
@@ -83,10 +83,94 @@ ul li{
 	margin-left: 51px;
 }
 /*VIDEO*/
+.articulovideo{
+	background: #00BCD4;
+	text-align: center;
+}
 .video{
-	background: blue;
+
 }
 
+/*SEGUNDA PAGINA COMO LO HACEMOS*/
+.segportada{
+background: url("../Img/15146724_10154761299711118_1711375617_o.png") no-repeat center center;
+/*no-repeat center center fixed;*/
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 200px;
+}
+.segportada h2{
+	margin: 0;
+	padding: 77px 0 0 115px;
+}
+.descargaizi{
+	background: white;
+	height: 600px;
+}
+.descargaizi figure{
+	display: inline-block;
+	padding: 45px 0 0 15%;
+}
+
+.descargaizi div{
+	display: inline-block;
+	float: right;
+	width: 47%;
+	padding-top: 65px;
+}
+.descargaizi h4{
+	color: black;
+}
+.descargaizi p{
+	display: inline-block;
+	margin: 0 0 28px 0;
+	padding: 28px;
+	border: 1px solid #ffad00;
+	font-size: 2em;
+	background: #ffad00;
+	color: black;
+}
+.prueba{
+	display: inline-block;
+	margin: 0 0 28px 0;
+	padding: 23px 95px 27px 39px;
+	border: 1px solid #efefef;
+	/*font-size: 2em;*/
+	color: gray;
+
+}
+.descargaizi h4{
+	display: inline-block;
+	border: 1px solid #efefef;
+	padding: 25px 40px 32px 32px;
+	margin: 0;
+	background: #efefef;
+}
+.descargaizi-2{
+	height: 500px;
+	background: #efefef;
+}
+.descargaizi-2 div{
+	display: inline-block;
+	width: 47%;
+	padding: 95px 0 127px 99px;
+
+
+}
+.descargaizi-2 h3{
+	margin: 4px 0 51px 0;
+	color: black;
+	font-size: 2em;
+}
+
+
+.descargaizi-2 figure{
+	float: right;
+	display: inline-block;
+	padding: 41px 150px 0 0;
+}
 
 .footer .contenedor{
 	display: flex;
