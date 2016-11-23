@@ -172,6 +172,89 @@ height: 200px;
 	padding: 41px 150px 0 0;
 }
 
+/*TERCERA PAGINA PAQUETES CORPORATIVOS*/
+.tabla{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+table{
+	width: 100%;
+	margin: 60px 0;
+
+}
+/*th{
+	background: #029735;
+	color: white;
+	padding: 10px 20px;
+	text-align: left;
+}*/
+.paquete{
+	background: white;
+	color: #666666;
+
+}
+.paquete span{
+	position: relative;
+	top: 54px;
+}
+.light{
+	background: #ffb900;
+}
+.light-2{
+	background: #ff9b00;
+}
+.light-3{
+	background: #e4e4e4;
+}
+.bronce
+{
+	background: #ffa300
+}
+.bronce-2{
+	background: #ff8600;
+}
+.bronce-3{
+	background: #dddddd;
+}
+.plata{
+	background: #ff9000;
+}
+.plata-2{
+	background: #ff7900;
+}
+.oro{
+	background: #ff8100;
+}
+.oro-2{
+	background: #ff5a00
+}
+.premium{
+	background: #ff6d00;
+}
+.premium-2{
+	background: #ff3800;
+}
+th{
+	font-size: 2em;
+	padding: 16px 0;
+}
+td{
+	padding: 32px 0;
+}
+td strong{
+	font-size: 2em;
+}
+td a{
+	border: solid 1px black;
+	padding: 16px 21px;
+	color: #666666; 
+}
+
+/*table, th, td{
+	border: 1px solid #029735;
+}*/
+
 .footer .contenedor{
 	display: flex;
 	justify-content: space-between;
