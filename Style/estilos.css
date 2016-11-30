@@ -2,6 +2,9 @@ a{
 	color: black;
 	text-decoration: none;
 }
+p{
+	color: #818181;
+}
 body{
 	font-family: Helvetica;
 	color: white;
@@ -59,6 +62,9 @@ ul li{
 .contenedor{
 	text-align: center;
 	padding-top: 90px;
+}
+.contenedor p{
+	color: white;
 }
 .boton{
 	padding: 12px;
@@ -171,6 +177,9 @@ height: 200px;
 	display: inline-block;
 	padding: 41px 150px 0 0;
 }
+.descargaizi-2 p{
+	color: #818181;
+}
 
 /*TERCERA PAGINA PAQUETES CORPORATIVOS*/
 .tabla{
@@ -252,18 +261,72 @@ td a{
 	padding: 16px 21px;
 	color: #666666; 
 }
+.imgjack{
+	background: url("../Img/Captura.JPG") no-repeat center center;
+/*no-repeat center center fixed;*/
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+height: 1219px;
+}
+/*.beneficios{
+	position: relative;
+	left: 62%;
+	padding: 4% 11% 4% 0;
+}
+.iconos{
+	font-size: .8em;
+	padding: 32px;
+	border:solid 1px;
+	display: block;
+}*/
 
 /*table, th, td{
 	border: 1px solid #029735;
 }*/
-
-.footer .contenedor{
-	display: flex;
-	justify-content: space-between;
-	color: white;
+/*Seccion Contactenos*/
+.Contactenos{
+	background: white;
+	color: #818181;
+	padding: 43px 0;
 }
-p{
-	color: gray;
+.Contactenos p{
+	font-size: .7em;
+	text-align: center;
+	margin-top: 0;	
+}
+.formulario{
+	text-align: center;
+}
+.formulario label{
+	font-size: 2em;
+	color: black;
+}
+.caja{
+	font-size: .7em;
+    padding: 7px 100px 7px 15px;
+}
+.caja2{
+	font-size: .7em;
+	padding: 7px 149px 7px 15px;
+	color: #b1aeae;  
+}
+.con{
+	padding: 7px 38px;
+	font-size: .72em;
+	font-weight: 800;
+	margin-top: 20px;
+}
+.footer .confooter{
+	padding: 44px 0;
+}
+.footer p{
+	color: white;
+	margin-top: 4px;
+}
+.footer a{
+	color: white;
 }
 
 .created{
@@ -271,12 +334,21 @@ p{
 	/*border: 1px solid red;*/
 	padding: 10px;
 	background: #ffb400;
+	margin: 0;
 }
 
 .redes
 {
-	padding-left: 135px;
-	padding-top: 20px;
+	display: inline-block;
+	padding-left: 100px;
+}
+.redes img{
+	margin-bottom: 21px;
+}
+.store{
+	display: inline-block;
+	position: relative;
+	left: 26%;
 }
 
 .logostore2
@@ -285,5 +357,7 @@ p{
 	padding-left: 73px;
 }
 .contacto{
-	width: 256;
-}
+	display: inline-block;
+	float: right;
+	padding-right: 100px;
+}	
